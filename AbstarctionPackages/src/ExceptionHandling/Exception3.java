@@ -50,20 +50,6 @@ public class Exception3 {
 			System.out.println("Marks of subject B: " + subB);
 			System.out.println("Marks of subject C: " + subC);
 		}
-
 		sc.close();
-
-	}
-	public class NegativeValuesException extends Exception {
-		public NegativeValuesException() {
-			super();
-			System.out.println("NegativeValuesException occured");
-		}
-	}
-	public class ValuesOutOfRangeException extends Exception {
-		public ValuesOutOfRangeException() {
-			super();
-			System.out.println("ValuesOutOfRangeException occured");
-		}
 	}
 }
